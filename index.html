@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Typing Speed Test ⌨️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>⌨️ Typing Speed Test</h1>
+
+<!-- Level Display -->
+<div class="level-box">
+<h3>📊 Level: <span id="level"></span></h3>
+</div>
+
+<!-- Quote -->
+<div class="quote-box">
+<p id="quote"></p>
+</div>
+
+<!-- Typing Area -->
+<textarea id="input" placeholder="Start typing here..."></textarea>
+
+<button id="okBtn">✅ OK</button>
+
+<!-- Result Section -->
+<div id="resultSection" class="result">
+
+<div class="card">
+<h3>⚡ Speed</h3>
+<p id="wpm"></p>
+</div>
+
+<div class="card">
+<h3>🎯 Accuracy</h3>
+<p id="accuracy"></p>
+</div>
+
+<div class="card">
+<h3>❌ Mistakes</h3>
+<p id="mistakes"></p>
+</div>
+
+<div class="actionButtons">
+<button onclick="tryAgain()">🔄 Try Again</button>
+<button onclick="nextSentence()">➡ Next Sentence</button>
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
